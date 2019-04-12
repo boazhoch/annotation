@@ -21,7 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:serve": "yarn build && serve -s build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,6 +37,7 @@
     "@types/react-portal": "^4.0.2",
     "@types/uuid": "^3.4.4",
     "react-app-rewired": "^2.1.1",
+    "serve": "^11.0.0",
     "workbox-webpack-plugin": "^4.2.0"
   }
 }
