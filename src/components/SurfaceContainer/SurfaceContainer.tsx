@@ -211,7 +211,6 @@ class SurfaceContainer extends Component<IProps, iState> {
     this.requester
       .post("/shapes", [...this.surface.getShapes()])
       .then(res => {
-        console.log(res);
         this.notifier.success("The Data as been sent 🦄");
       })
       .catch(e => {
