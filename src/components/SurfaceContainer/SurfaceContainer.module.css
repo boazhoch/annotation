@@ -1,0 +1,8 @@
+.button {
+  position: absolute;
+  top: 5px;
+  margin: 0;
+  right: 5px;
+  z-index: 2;
+  cursor: pointer;
+}
